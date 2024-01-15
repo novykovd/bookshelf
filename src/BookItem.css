@@ -1,0 +1,26 @@
+.card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #e0e0e0; /* Light border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for elevation */
+    border-radius: 8px; /* Rounded corners */
+    margin: 16px; /* Spacing */
+    padding: 4px; /* Spacing within the card */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    transition: height 0.5s ease;
+    transition-property: all;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.button{
+    margin-left: auto; /* Pushes the button to the right */
+}
+

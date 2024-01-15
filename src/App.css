@@ -1,0 +1,77 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 9;
+}
+
+.overall{
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  flex: 1;
+  font-size: xx-large;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 15px;
+}
+
+.window {
+  border-color:   aqua;
+  display: flex;
+  flex: 1 1 0;
+  margin: 4em;
+  height: 200px;
+
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+
+  height: 500px;
+
+  background-color: #fff; /* White background for cards */
+  border: 1px solid #e0e0e0; /* Light border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for elevation */
+  border-radius: 8px; /* Rounded corners */
+
+}
+
+.left div {
+  margin: 10px;
+}
+
+.title {
+  flex: 1 1 0;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 2em;
+  font-size:x-large;
+  
+}
+
+.list {
+  flex: 5 1 0;
+  overflow: auto;
+}
+
+
+.right {
+  height: 500px;
+}
+
+
+.read-the-docs {
+  color: #888;
+}
